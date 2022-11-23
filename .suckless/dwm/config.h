@@ -16,8 +16,8 @@ static const char *fonts[]               = { "terminus:size=11", "font awesome 5
 static const char dmenufont[]            = "terminus:size=11";
 static const char col_gray1[]            = "#0F1419";
 static const char col_gray2[]            = "#14191f";
-static const char col_gray3[]            = "#bbbbbb";
-static const char col_gray4[]            = "#E7E1CF";
+static const char col_gray3[]            = "#E3E1CF";
+static const char col_gray4[]            = "#E6E1CF";
 static const char col_cyan[]             = "#253340";
 static const char *colors[][3]           = {
 	/*               fg         bg         border   */
