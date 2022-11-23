@@ -1,0 +1,79 @@
+
+configuration {
+    display-run: "run: ";
+    display-drun: "apps: ";
+    modi: "run,drun";
+}
+
+@theme "/dev/null"
+
+* {
+    bg: #0F1419;
+    fg: #B3B1AD;
+    bg-alt: #686868;
+    special: #662628;
+
+    background-color: @bg;
+    text-color: #B3B1AD;
+    font: "terminus 12";
+    spacing: 0px;
+}
+
+window {
+    width: 200px 500px;
+    border: 2px;    
+    border-color: @special;
+}
+
+mainbox {
+   children: [inputbar, listview];  
+   padding: 5px;
+}
+
+inputbar {
+    children: [prompt, entry];
+    padding: 4px;
+}
+
+prompt {
+    font: "terminus bold 12";
+}
+
+entry {
+    font: "terminus bold 12";
+    placeholder: "type something...";
+    placeholder-color: @bg-alt;
+}
+
+listview {
+    lines: 10;
+    scrollbar: true;
+}
+
+element {
+    padding: 4px 0px;
+}
+
+element-icon {
+    size: 16;
+    padding: 0px 6px;
+}
+
+element-text {
+    highlight: @special;
+}
+
+element-text selected {
+    background-color: @bg-alt;
+}
+
+element-icon selected {
+    background-color: @bg-alt;
+}
+
+scrollbar {
+    handle-width: 0px 2px;
+    handle-color: @special;
+    border: 5px;
+}
+
