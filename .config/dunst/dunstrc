@@ -7,7 +7,7 @@ foreground = "#E6E1CF"
 font = terminus 11
 frame_width = 2
 frame_color = "#253340"
-icon_path = /usr/share/icons/Papirus-Dark/24x24/status/:/usr/share/icons/Papirus-Dark/24x24/devices
+icon_path = /usr/share/icons/Papirus-Dark/24x24/status/:/usr/share/icons/Papirus-Dark/24x24/devices/:/usr/share/icons/Papirus-Dark/24x24/panel
 browser = /usr/bin/firefox
 
 [urgency_critical]
